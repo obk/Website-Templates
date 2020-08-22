@@ -1,0 +1,98 @@
+@import 'normalize.css';
+@import 'font.css';
+html {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    background-color: #100806;
+    color: #e7d0ba;
+    max-width: 700px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    float: none;
+    clear: both;
+    background-color: transparent;
+    opacity: 0.3;
+    margin: 0px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+a {
+    color: #bb841a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffdf9e;
+}
+
+img {
+    float: right;
+    margin: 4px;
+}
+
+h2 {
+    opacity: .9;
+}
+
+.nav {
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    align-items: baseline;
+}
+
+.nav ul li {
+    font-size: 22px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.mainpanel li {
+    line-height: 1.5rem;
+    letter-spacing: .05rem;
+    opacity: .8;
+}
+
+.mainpanel a {
+    opacity: .9;
+}
+
+.mainpanel img {
+    margin: 10px;
+}
+
+.container {
+    margin-top: 50px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .8;
+}
+
+.panel {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel li {
+    margin-top: 5px;
+}

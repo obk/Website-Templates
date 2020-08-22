@@ -1,0 +1,25 @@
+body {
+    background-color: #100806;
+    color: #eee;
+}
+
+#main {
+    border-left: 2px solid #bb841a;
+    margin-top: 150px;
+    font-size: 1.5em;
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+}
+
+p {
+    margin: 1em;
+}
+
+p a {
+    color: #e7d0ba;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #bb841a;
+    text-decoration: underline;
+}
